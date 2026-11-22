@@ -1,5 +1,5 @@
 class Main {
-    static final String VERSION = "1.0";
+    static final String VERSION = "1.1";
 
     public static void main(String[] args) {
         System.out.println("Практическая работа №6. Ветвление.");
@@ -10,6 +10,7 @@ class Main {
         System.out.print("Числа от 1 до 5: ");
         printNumbers(5);
         System.out.println("Аргументов командной строки: " + args.length);
+        System.out.println("Максимум из 7 и 4 = " + max(7, 4));
     }
 
     static int sum(int a, int b) {
@@ -21,5 +22,9 @@ class Main {
             System.out.print(i + " ");
         }
         System.out.println();
+    }
+
+    static int max(int a, int b) {
+        return a > b ? a : b;
     }
 }
