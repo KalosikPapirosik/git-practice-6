@@ -6,6 +6,7 @@ class Main {
         System.out.println("Версия программы: " + VERSION);
         System.out.print("Это добавлено в ветке main");
         System.out.println();
+        System.out.println("Это добавлено в ветке dev");
         System.out.println("Сумма 2 и 3 = " + sum(2, 3));
         System.out.print("Числа от 1 до 5: ");
         printNumbers(5);
